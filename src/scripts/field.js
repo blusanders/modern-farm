@@ -12,6 +12,10 @@ export const addPlant = (seed) => {
     }
 }
 
+//returns a copy of every individual plant object from field plan
+//if plant is corn then it's added it twice
+//console.log(plantsInFieldArray)
+
 export const usePlants = () => {
     return plantsInFieldArray.slice();
 }
