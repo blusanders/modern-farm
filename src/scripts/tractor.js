@@ -6,7 +6,7 @@
 //     ["Asparagus", "Soybean", "Potato", "Wheat"]
 // ]
 
-import { addPlant  } from "./field.js";
+import { addPlant, usePlants  } from "./field.js";
 import { createAsparagus } from "./seeds/asparagus.js";
 import { createCorn } from "./seeds/corn.js";
 import { createPotato } from "./seeds/potato.js";
@@ -46,5 +46,7 @@ export const plantSeeds = (yearlyPlan) =>{
               }
         })
     });
+    //return a copy of all plants
+    return usePlants();
 }
 
