@@ -13,7 +13,7 @@ export const harvestPlants = (plantArray) => {
         //if corn then cut output in half
         // let correctOutput=0;
         // debugger
-        if (x.type==="corn"){
+        if (x.type==="Corn"){
             correctOutput=x.output/2;
         }else{
             correctOutput=x.output;
