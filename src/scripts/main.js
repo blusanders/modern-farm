@@ -19,5 +19,7 @@ const allThePlants = plantSeeds(yearlyPlan);
 // console.log(harvestPlants(allThePlants));
 const harvestedPlantArray = harvestPlants(allThePlants);
 
+//post sorted HTML 
 Catalog(harvestedPlantArray);
+
 
