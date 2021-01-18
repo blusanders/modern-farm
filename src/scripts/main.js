@@ -15,5 +15,5 @@ console.log(allThePlants)
 
 //create array with per #of objects of each plant
 //corn half output
-console.log(harvestPlants(allThePlants));
+harvestPlants(allThePlants);
 

@@ -19,6 +19,7 @@ export const plantSeeds = (yearlyPlan) =>{
     yearlyPlan.forEach(rowOfPlants => {
         //iterate thru each array (y) on each x
         rowOfPlants.forEach(plantInRow => {
+ 
             //call plant function to get plant object
             //console.log(plantInRow);
 
