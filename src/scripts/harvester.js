@@ -25,5 +25,19 @@ export const harvestPlants = (plantArray) => {
         };
     });
 
-    return plantOutputArray;
+    // return sorted plantOutputArray;
+    return sortPlants(plantOutputArray);
+
 };
+
+export const sortPlants = (arrayToSort) => {
+
+        return arrayToSort.sort((a,b)=>{
+            if (a.type>b.type){
+                return 1;
+            }else if (a.type<b.type){
+                return -1;
+            }
+        });
+
+    }

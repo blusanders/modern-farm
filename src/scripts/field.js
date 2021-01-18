@@ -16,6 +16,7 @@ export const addPlant = (seed) => {
 //if plant is corn then it's added it twice
 //console.log(plantsInFieldArray)
 
+//unsorted usePlants
 export const usePlants = () => {
     return plantsInFieldArray.slice();
 }
