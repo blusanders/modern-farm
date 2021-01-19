@@ -3,7 +3,7 @@ console.log("Welcome to the main module")
 import { createPlan } from "./plan.js";
 import { plantSeeds } from "./tractor.js";
 import { harvestPlants } from "./harvester.js";
-import { Catalog } from "./catalog.js";
+import { Catalog, countPlants } from "./catalog.js";
 
 //random 3x6 array of plant plan
 const yearlyPlan=createPlan();
@@ -20,6 +20,7 @@ const allThePlants = plantSeeds(yearlyPlan);
 const harvestedPlantArray = harvestPlants(allThePlants);
 
 //post sorted HTML 
-Catalog(harvestedPlantArray);
+//Catalog(harvestedPlantArray);
 
-
+//post SUM of plants
+countPlants(harvestedPlantArray);
